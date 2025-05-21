@@ -1,0 +1,24 @@
+# Dependințe
+node_modules/
+
+# Fișiere de mediu
+.env
+
+# Fișiere de log
+logs
+*.log
+npm-debug.log*
+
+# Directoare de cache
+.npm
+.cache
+
+# Fișiere sistem
+.DS_Store
+Thumbs.db
+
+# Directoare IDE/Editor
+.idea/
+.vscode/
+*.swp
+*.swo
