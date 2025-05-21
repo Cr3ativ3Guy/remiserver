@@ -137,34 +137,54 @@ router.post('/create', async (req, res) => {
 });
 
 // Autentificare într-o serie cu rol
+// Înlocuiește blocul de autentificare cu următorul cod
 router.post('/login-with-role', async (req, res) => {
   const { seriesId, password } = req.body;
   const deviceId = req.headers['x-device-id'] || req.body.deviceId || 'unknown';
 
-  console.log('Login attempt:', {
+  console.log('=== DETALII AUTENTIFICARE ===');
+  console.log('Cerere de autentificare:', {
     seriesId,
-    deviceId,
-    passwordLength: password ? password.length : 'No password'
+    passwordProvided: password ? `Da (${password.length} caractere)` : 'Nu',
+    deviceId
   });
 
   try {
-    // Caută seria
-    const series = await Series.findOne({ 
-      seriesId: seriesId, 
-      password: password 
-    });
-
+    // Mai întâi verifică dacă seria există doar după ID
+    const series = await Series.findOne({ seriesId: seriesId });
+    
     if (!series) {
+      console.log(`Serie cu ID ${seriesId} nu a fost găsită.`);
       return res.status(401).json({
         success: false,
-        message: "ID serie sau parolă incorectă"
+        message: "ID serie sau parolă incorectă (seria nu există)"
       });
     }
-
-    // Determină rolul în funcție de creatorId
-    const role = series.creatorId === deviceId ? 'admin' : 'viewer';
     
-    // Dacă este viewer, adaugă dispozitivul la lista viewerDevices dacă nu există deja
+    console.log('Serie găsită. Verificare parolă:');
+    console.log('- Parolă în DB:', series.password);
+    console.log('- Parolă primită:', password);
+    console.log('- Potrivire:', series.password === password);
+    
+    // Verifică parola
+    if (series.password !== password) {
+      console.log('Parolă incorectă.');
+      return res.status(401).json({
+        success: false,
+        message: "ID serie sau parolă incorectă (parola nu se potrivește)"
+      });
+    }
+    
+    console.log('Parolă corectă. Verificare rol:');
+    console.log('- CreatorId din DB:', series.creatorId);
+    console.log('- DeviceId client:', deviceId);
+    
+    // Temporar, pentru debugging, acordă rolul de admin oricui
+    // const role = series.creatorId === deviceId ? 'admin' : 'viewer';
+    const role = 'admin'; // DOAR PENTRU DEBUGGING
+    console.log('⚠️ DEBUGGING: Rolul a fost forțat la "admin" pentru toți utilizatorii');
+
+    // Restul codului ca înainte, adaugă la viewerDevices etc.
     if (role === 'viewer' && !series.viewerDevices.includes(deviceId)) {
       await Series.findOneAndUpdate(
         { seriesId },
@@ -173,10 +193,12 @@ router.post('/login-with-role', async (req, res) => {
 
       // Socket.IO: Notificare pentru un nou viewer conectat
       const io = req.app.get('io');
-      io.to(`series:${seriesId}`).emit('viewer-joined', {
-        seriesId: seriesId,
-        viewerCount: (series.viewerDevices || []).length + 1
-      });
+      if (io) {
+        io.to(`series:${seriesId}`).emit('viewer-joined', {
+          seriesId: seriesId,
+          viewerCount: (series.viewerDevices || []).length + 1
+        });
+      }
     }
 
     // Adaugă la seriile recente
@@ -189,6 +211,8 @@ router.post('/login-with-role', async (req, res) => {
     
     await RecentSeries.addOrUpdateRecentSeries(recentSeriesData);
 
+    console.log('=== AUTENTIFICARE REUȘITĂ ===');
+    
     res.json({
       success: true,
       session: {
@@ -196,12 +220,12 @@ router.post('/login-with-role', async (req, res) => {
         players: series.players,
         createdAt: series.createdAt
       },
-      role: role,  // Acum rolul este determinat dinamic
+      role: role,
       token: null
     });
 
   } catch (error) {
-    console.error('Login error:', error);
+    console.error('Eroare de autentificare:', error);
     res.status(500).json({
       success: false, 
       message: "Eroare internă de server",
