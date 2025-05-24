@@ -1,0 +1,680 @@
+[{
+  "_id": {
+    "$oid": "67e68dfd161630475182bcb4"
+  },
+  "seriesId": "3536839225",
+  "deviceId": "E32A692D-9234-4C2B-B45D-CF64B00B8CBD",
+  "lastAccessedDate": {
+    "$date": "2025-03-28T11:54:37.216Z"
+  },
+  "players": {
+    "player1": "yu",
+    "player2": "qw",
+    "player3": "er",
+    "player4": "yr"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e68e46161630475182bcc6"
+  },
+  "seriesId": "9586481051",
+  "deviceId": "E32A692D-9234-4C2B-B45D-CF64B00B8CBD",
+  "lastAccessedDate": {
+    "$date": "2025-03-28T11:55:50.055Z"
+  },
+  "players": {
+    "player1": "o",
+    "player2": "p",
+    "player3": "la",
+    "player4": "y"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e69184161630475182bce5"
+  },
+  "seriesId": "9664496733",
+  "deviceId": "E32A692D-9234-4C2B-B45D-CF64B00B8CBD",
+  "lastAccessedDate": {
+    "$date": "2025-03-28T12:09:40.623Z"
+  },
+  "players": {
+    "player1": "b",
+    "player2": "u",
+    "player3": "i",
+    "player4": "c"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e6a124806e045ee484599b"
+  },
+  "seriesId": "8352113683",
+  "deviceId": "E32A692D-9234-4C2B-B45D-CF64B00B8CBD",
+  "lastAccessedDate": {
+    "$date": "2025-03-28T13:16:20.743Z"
+  },
+  "players": {
+    "player1": "hu",
+    "player2": "lp",
+    "player3": "y",
+    "player4": "r"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e6cb0d806e045ee4845a12"
+  },
+  "seriesId": "4672458806",
+  "deviceId": "E32A692D-9234-4C2B-B45D-CF64B00B8CBD",
+  "lastAccessedDate": {
+    "$date": "2025-03-28T16:15:09.842Z"
+  },
+  "players": {
+    "player1": "ty",
+    "player2": "re",
+    "player3": "we",
+    "player4": "lol"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e6cf220bb40814f704b624"
+  },
+  "seriesId": "8653121796",
+  "deviceId": "38941219-5AE5-4C67-BF38-54B83CC08E6A",
+  "lastAccessedDate": {
+    "$date": "2025-03-28T16:32:34.560Z"
+  },
+  "players": {
+    "player1": "ty",
+    "player2": "re",
+    "player3": "bv",
+    "player4": "qw"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e6d39c0bb40814f704b656"
+  },
+  "seriesId": "7450863794",
+  "deviceId": "80685558-F77B-40C1-9560-5D57B093EA7F",
+  "lastAccessedDate": {
+    "$date": "2025-03-28T16:51:40.793Z"
+  },
+  "players": {
+    "player1": "ty",
+    "player2": "po",
+    "player3": "uy",
+    "player4": "gf"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e70d8aa7f07bd5669dd2c9"
+  },
+  "seriesId": "2235474804",
+  "deviceId": "1C93F4C3-6107-46A1-8C58-1BF2D1EF7648",
+  "lastAccessedDate": {
+    "$date": "2025-03-29T00:02:48.772Z"
+  },
+  "players": {
+    "player1": "Radu",
+    "player2": "Alina",
+    "player3": "Bogdan ",
+    "player4": "Ramona"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e73912f00daf3546fb4df0"
+  },
+  "seriesId": "1942267210",
+  "deviceId": "714459C3-FE92-4324-8EB3-DD907E193330",
+  "lastAccessedDate": {
+    "$date": "2025-03-29T12:38:25.430Z"
+  },
+  "players": {
+    "player1": "Rt",
+    "player2": "Uy",
+    "player3": "Fd",
+    "player4": "Po"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e73936f00daf3546fb4e14"
+  },
+  "seriesId": "1942267210",
+  "deviceId": "1C93F4C3-6107-46A1-8C58-1BF2D1EF7648",
+  "lastAccessedDate": {
+    "$date": "2025-04-04T09:53:57.265Z"
+  },
+  "players": {
+    "player1": "Rt",
+    "player2": "Uy",
+    "player3": "Fd",
+    "player4": "Po"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e7edca1f519f842efc4208"
+  },
+  "seriesId": "1394080580",
+  "deviceId": "714459C3-FE92-4324-8EB3-DD907E193330",
+  "lastAccessedDate": {
+    "$date": "2025-04-04T10:52:24.699Z"
+  },
+  "players": {
+    "player1": "Radu",
+    "player2": "Alina",
+    "player3": "Bogdan",
+    "player4": "Ramona"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67eee6b7128d54b35eba99a9"
+  },
+  "seriesId": "1394080580",
+  "deviceId": "95AF6CF4-852F-46E7-BBDE-CFFB9A90E173",
+  "lastAccessedDate": {
+    "$date": "2025-04-03T19:51:19.529Z"
+  },
+  "players": {
+    "player1": "Radu",
+    "player2": "Alina",
+    "player3": "Bogdan",
+    "player4": "Ramona"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67eee6e3128d54b35eba99de"
+  },
+  "seriesId": "1448641737",
+  "deviceId": "95AF6CF4-852F-46E7-BBDE-CFFB9A90E173",
+  "lastAccessedDate": {
+    "$date": "2025-04-04T07:43:15.162Z"
+  },
+  "players": {
+    "player1": "Radu",
+    "player2": "Alina",
+    "player3": "Bogdan",
+    "player4": "Ramona"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67eee713128d54b35eba99f8"
+  },
+  "seriesId": "1448641737",
+  "deviceId": "22F25CF5-14E4-4A19-B324-FA489B215B75",
+  "lastAccessedDate": {
+    "$date": "2025-04-03T19:52:51.556Z"
+  },
+  "players": {
+    "player1": "Radu",
+    "player2": "Alina",
+    "player3": "Bogdan",
+    "player4": "Ramona"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67efabec128d54b35eba9a6f"
+  },
+  "seriesId": "1448641737",
+  "deviceId": "714459C3-FE92-4324-8EB3-DD907E193330",
+  "lastAccessedDate": {
+    "$date": "2025-04-04T09:54:46.805Z"
+  },
+  "players": {
+    "player1": "Radu",
+    "player2": "Alina",
+    "player3": "Bogdan",
+    "player4": "Ramona"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67efac51128d54b35eba9af0"
+  },
+  "seriesId": "1448641737",
+  "deviceId": "1C93F4C3-6107-46A1-8C58-1BF2D1EF7648",
+  "lastAccessedDate": {
+    "$date": "2025-04-04T09:54:25.271Z"
+  },
+  "players": {
+    "player1": "Radu",
+    "player2": "Alina",
+    "player3": "Bogdan",
+    "player4": "Ramona"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67efac8a128d54b35eba9b63"
+  },
+  "seriesId": "1394080580",
+  "deviceId": "1C93F4C3-6107-46A1-8C58-1BF2D1EF7648",
+  "lastAccessedDate": {
+    "$date": "2025-04-04T11:53:08.172Z"
+  },
+  "players": {
+    "player1": "Radu",
+    "player2": "Alina",
+    "player3": "Bogdan",
+    "player4": "Ramona"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67efba0d3eecc6cd6ddbc560"
+  },
+  "seriesId": "2139124046",
+  "deviceId": "714459C3-FE92-4324-8EB3-DD907E193330",
+  "lastAccessedDate": {
+    "$date": "2025-04-04T14:17:22.241Z"
+  },
+  "players": {
+    "player1": "Tr",
+    "player2": "Iu",
+    "player3": "Op",
+    "player4": "Ef"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67efc838b9227216619ea110"
+  },
+  "seriesId": "2139124046",
+  "deviceId": "1C93F4C3-6107-46A1-8C58-1BF2D1EF7648",
+  "lastAccessedDate": {
+    "$date": "2025-04-04T14:23:01.453Z"
+  },
+  "players": {
+    "player1": "Tr",
+    "player2": "Iu",
+    "player3": "Op",
+    "player4": "Ef"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67efeb00b9227216619ea4c0"
+  },
+  "seriesId": "4691953669",
+  "deviceId": "714459C3-FE92-4324-8EB3-DD907E193330",
+  "lastAccessedDate": {
+    "$date": "2025-04-04T15:19:01.222Z"
+  },
+  "players": {
+    "player1": "Radu",
+    "player2": "Alina",
+    "player3": "Bogdan",
+    "player4": "Ramona"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67effa47b9227216619eac9d"
+  },
+  "seriesId": "4691953669",
+  "deviceId": "95AF6CF4-852F-46E7-BBDE-CFFB9A90E173",
+  "lastAccessedDate": {
+    "$date": "2025-04-04T15:27:03.400Z"
+  },
+  "players": {
+    "player1": "Radu",
+    "player2": "Alina",
+    "player3": "Bogdan",
+    "player4": "Ramona"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67effa72b9227216619eacdf"
+  },
+  "seriesId": "4781108645",
+  "deviceId": "95AF6CF4-852F-46E7-BBDE-CFFB9A90E173",
+  "lastAccessedDate": {
+    "$date": "2025-04-04T15:27:46.355Z"
+  },
+  "players": {
+    "player1": "Ty",
+    "player2": "Tr",
+    "player3": "Re",
+    "player4": "Es"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67effab9b9227216619eacf8"
+  },
+  "seriesId": "2899201564",
+  "deviceId": "377CC8C6-4CC0-4B5B-A7BC-F75CBE8B6558",
+  "lastAccessedDate": {
+    "$date": "2025-04-06T17:41:27.070Z"
+  },
+  "players": {
+    "player1": "Test",
+    "player2": "Te",
+    "player3": "Rs",
+    "player4": "Kj"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67effc18b9227216619ead18"
+  },
+  "seriesId": "2899201564",
+  "deviceId": "DA48A47C-A95E-4E12-903D-552F2850CAC1",
+  "lastAccessedDate": {
+    "$date": "2025-04-04T15:34:48.979Z"
+  },
+  "players": {
+    "player1": "Test",
+    "player2": "Te",
+    "player3": "Rs",
+    "player4": "Kj"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f00c57b9227216619ead5f"
+  },
+  "seriesId": "7495185772",
+  "deviceId": "22F25CF5-14E4-4A19-B324-FA489B215B75",
+  "lastAccessedDate": {
+    "$date": "2025-04-06T18:00:20.532Z"
+  },
+  "players": {
+    "player1": "Alina",
+    "player2": "Radu",
+    "player3": "Bogdan",
+    "player4": "Ramona"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f2bcf0b9227216619eae96"
+  },
+  "seriesId": "2247700268",
+  "deviceId": "377CC8C6-4CC0-4B5B-A7BC-F75CBE8B6558",
+  "lastAccessedDate": {
+    "$date": "2025-04-06T17:42:08.525Z"
+  },
+  "players": {
+    "player1": "A",
+    "player2": "B",
+    "player3": "C",
+    "player4": "D"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f2bd5db9227216619eaf44"
+  },
+  "seriesId": "2247700268",
+  "deviceId": "220A320D-1E43-43F0-9E31-2BDBC7973576",
+  "lastAccessedDate": {
+    "$date": "2025-04-26T22:58:44.190Z"
+  },
+  "players": {
+    "player1": "A",
+    "player2": "B",
+    "player3": "C",
+    "player4": "D"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f2c105b9227216619eaf8e"
+  },
+  "seriesId": "3664911501",
+  "deviceId": "377CC8C6-4CC0-4B5B-A7BC-F75CBE8B6558",
+  "lastAccessedDate": {
+    "$date": "2025-05-04T18:15:30.203Z"
+  },
+  "players": {
+    "player1": "Radu",
+    "player2": "Alina",
+    "player3": "Bogdan",
+    "player4": "Ramona"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f2c139b9227216619eafba"
+  },
+  "seriesId": "3664911501",
+  "deviceId": "220A320D-1E43-43F0-9E31-2BDBC7973576",
+  "lastAccessedDate": {
+    "$date": "2025-04-26T22:13:38.980Z"
+  },
+  "players": {
+    "player1": "Radu",
+    "player2": "Alina",
+    "player3": "Bogdan",
+    "player4": "Ramona"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f2c165b9227216619eafdf"
+  },
+  "seriesId": "3664911501",
+  "deviceId": "22F25CF5-14E4-4A19-B324-FA489B215B75",
+  "lastAccessedDate": {
+    "$date": "2025-04-26T23:23:53.904Z"
+  },
+  "players": {
+    "player1": "Radu",
+    "player2": "Alina",
+    "player3": "Bogdan",
+    "player4": "Ramona"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f3c715b9227216619eb53f"
+  },
+  "seriesId": "3664911501",
+  "deviceId": "67531B04-2730-4350-AA2B-E08AB426E6F0",
+  "lastAccessedDate": {
+    "$date": "2025-04-07T12:37:41.581Z"
+  },
+  "players": {
+    "player1": "Radu",
+    "player2": "Alina",
+    "player3": "Bogdan",
+    "player4": "Ramona"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f52562b9227216619eb586"
+  },
+  "seriesId": "6929576013",
+  "deviceId": "F8605A7E-EECC-4625-BE0C-8C6C8AAF4109",
+  "lastAccessedDate": {
+    "$date": "2025-05-02T13:51:27.421Z"
+  },
+  "players": {
+    "player1": "A",
+    "player2": "B",
+    "player3": "C",
+    "player4": "D"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f67c54b9227216619eb5bf"
+  },
+  "seriesId": "3664911501",
+  "deviceId": "1D391BD1-A92D-4EAB-B2C3-9B344327ADD4",
+  "lastAccessedDate": {
+    "$date": "2025-04-09T13:55:32.863Z"
+  },
+  "players": {
+    "player1": "Radu",
+    "player2": "Alina",
+    "player3": "Bogdan",
+    "player4": "Ramona"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67fab456b9227216619eb839"
+  },
+  "seriesId": "9960460280",
+  "deviceId": "377CC8C6-4CC0-4B5B-A7BC-F75CBE8B6558",
+  "lastAccessedDate": {
+    "$date": "2025-04-22T08:01:40.469Z"
+  },
+  "players": {
+    "player1": "Raluca",
+    "player2": "Bogdan",
+    "player3": "Ramona",
+    "player4": "Florin"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67fc0f30b9227216619ebd65"
+  },
+  "seriesId": "6684712082",
+  "deviceId": "377CC8C6-4CC0-4B5B-A7BC-F75CBE8B6558",
+  "lastAccessedDate": {
+    "$date": "2025-04-17T21:50:38.528Z"
+  },
+  "players": {
+    "player1": "Stefan",
+    "player2": "Bogdan",
+    "player3": "Raluca",
+    "player4": "Ramona"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6802af90b9227216619ec205"
+  },
+  "seriesId": "8590966324",
+  "deviceId": "A95F417B-517F-439C-AD67-9644AB8EA798",
+  "lastAccessedDate": {
+    "$date": "2025-04-19T18:20:43.035Z"
+  },
+  "players": {
+    "player1": "Petrica",
+    "player2": "Laur",
+    "player3": "Raluca",
+    "player4": "Florin"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6803e9b7b9227216619ec38e"
+  },
+  "seriesId": "9948144792",
+  "deviceId": "A95F417B-517F-439C-AD67-9644AB8EA798",
+  "lastAccessedDate": {
+    "$date": "2025-04-19T18:21:43.629Z"
+  },
+  "players": {
+    "player1": "Laur",
+    "player2": "Ramona",
+    "player3": "Petrica",
+    "player4": "Florin"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68053afbb9227216619ec595"
+  },
+  "seriesId": "7429352684",
+  "deviceId": "A95F417B-517F-439C-AD67-9644AB8EA798",
+  "lastAccessedDate": {
+    "$date": "2025-04-20T19:18:20.270Z"
+  },
+  "players": {
+    "player1": "Laur",
+    "player2": "Ramona",
+    "player3": "Raluca",
+    "player4": "Florin"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68055345b9227216619ec6a5"
+  },
+  "seriesId": "9045286715",
+  "deviceId": "A95F417B-517F-439C-AD67-9644AB8EA798",
+  "lastAccessedDate": {
+    "$date": "2025-05-03T18:05:14.818Z"
+  },
+  "players": {
+    "player1": "Raluca",
+    "player2": "Ramona",
+    "player3": "Florin",
+    "player4": "Laur"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68165b47b9227216619ed3f9"
+  },
+  "seriesId": "2073444952",
+  "deviceId": "A95F417B-517F-439C-AD67-9644AB8EA798",
+  "lastAccessedDate": {
+    "$date": "2025-05-03T18:07:03.348Z"
+  },
+  "players": {
+    "player1": "Florin",
+    "player2": "Ramona",
+    "player3": "Raluca",
+    "player4": "Bogdam"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,1176 @@
+[{
+  "_id": {
+    "$oid": "67e56b390907dc62c5f30864"
+  },
+  "seriesId": "3547254608",
+  "password": "test1234",
+  "creatorId": "E32A692D-9234-4C2B-B45D-CF64B00B8CBD",
+  "players": {
+    "player1": "t",
+    "player2": "h",
+    "player3": "k",
+    "player4": "l"
+  },
+  "sessionCount": 1,
+  "createdAt": {
+    "$date": "2025-03-27T15:14:01.171Z"
+  },
+  "lastUpdated": {
+    "$date": "2025-03-27T15:14:17.774Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e56c530907dc62c5f30878"
+  },
+  "seriesId": "6431421565",
+  "password": "test1234",
+  "creatorId": "E32A692D-9234-4C2B-B45D-CF64B00B8CBD",
+  "players": {
+    "player1": "tes",
+    "player2": "hul",
+    "player3": "hy",
+    "player4": "gty"
+  },
+  "sessionCount": 1,
+  "createdAt": {
+    "$date": "2025-03-27T15:18:43.001Z"
+  },
+  "lastUpdated": {
+    "$date": "2025-03-27T15:18:50.060Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e56d420907dc62c5f30886"
+  },
+  "seriesId": "9144470947",
+  "password": "test1234",
+  "creatorId": "E32A692D-9234-4C2B-B45D-CF64B00B8CBD",
+  "players": {
+    "player1": "y",
+    "player2": "p",
+    "player3": "j",
+    "player4": "h"
+  },
+  "sessionCount": 1,
+  "createdAt": {
+    "$date": "2025-03-27T15:22:42.965Z"
+  },
+  "lastUpdated": {
+    "$date": "2025-03-27T15:23:16.950Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e57225231015a157bff3b4"
+  },
+  "seriesId": "7783549952",
+  "password": "test1234",
+  "creatorId": "E32A692D-9234-4C2B-B45D-CF64B00B8CBD",
+  "players": {
+    "player1": "y",
+    "player2": "l",
+    "player3": "h",
+    "player4": "b"
+  },
+  "sessionCount": 2,
+  "createdAt": {
+    "$date": "2025-03-27T15:43:33.980Z"
+  },
+  "lastUpdated": {
+    "$date": "2025-03-27T16:38:06.653Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e57f92231015a157bff42c"
+  },
+  "seriesId": "7975264311",
+  "password": "test1234",
+  "creatorId": "E32A692D-9234-4C2B-B45D-CF64B00B8CBD",
+  "players": {
+    "player1": "Radu",
+    "player2": "Alina",
+    "player3": "Bogdan",
+    "player4": "Ramona"
+  },
+  "sessionCount": 1,
+  "createdAt": {
+    "$date": "2025-03-27T16:40:50.455Z"
+  },
+  "lastUpdated": {
+    "$date": "2025-03-27T16:40:59.089Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e5825f231015a157bff44d"
+  },
+  "seriesId": "3543797769",
+  "password": "test1234",
+  "creatorId": "E32A692D-9234-4C2B-B45D-CF64B00B8CBD",
+  "players": {
+    "player1": "Radu",
+    "player2": "Alina",
+    "player3": "Bogdan",
+    "player4": "Ramona"
+  },
+  "sessionCount": 2,
+  "createdAt": {
+    "$date": "2025-03-27T16:52:47.268Z"
+  },
+  "lastUpdated": {
+    "$date": "2025-03-27T16:54:04.568Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e584e5231015a157bff4d2"
+  },
+  "seriesId": "9685404722",
+  "password": "test1234",
+  "creatorId": "E32A692D-9234-4C2B-B45D-CF64B00B8CBD",
+  "players": {
+    "player1": "j",
+    "player2": "g",
+    "player3": "c",
+    "player4": "b"
+  },
+  "sessionCount": 2,
+  "createdAt": {
+    "$date": "2025-03-27T17:03:33.298Z"
+  },
+  "lastUpdated": {
+    "$date": "2025-03-27T17:06:52.262Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e586ad231015a157bff514"
+  },
+  "seriesId": "8485552975",
+  "password": "test1234",
+  "creatorId": "E32A692D-9234-4C2B-B45D-CF64B00B8CBD",
+  "players": {
+    "player1": "y",
+    "player2": "h",
+    "player3": "gf",
+    "player4": "f"
+  },
+  "sessionCount": 1,
+  "createdAt": {
+    "$date": "2025-03-27T17:11:09.203Z"
+  },
+  "lastUpdated": {
+    "$date": "2025-03-27T17:11:42.263Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e589c4231015a157bff531"
+  },
+  "seriesId": "5264952092",
+  "password": "test1234",
+  "creatorId": "E32A692D-9234-4C2B-B45D-CF64B00B8CBD",
+  "players": {
+    "player1": "h",
+    "player2": "c",
+    "player3": "d",
+    "player4": "l"
+  },
+  "sessionCount": 5,
+  "createdAt": {
+    "$date": "2025-03-27T17:24:20.248Z"
+  },
+  "lastUpdated": {
+    "$date": "2025-03-27T17:41:36.428Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e59bad4a29d668c3f726d5"
+  },
+  "seriesId": "3900747126",
+  "players": {
+    "player1": "g",
+    "player2": "d",
+    "player3": "l",
+    "player4": "u"
+  },
+  "createdAt": {
+    "$date": "2025-03-27T18:40:45.414Z"
+  },
+  "sessionCount": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e59d08038a10c01f8a6b53"
+  },
+  "seriesId": "3150341370",
+  "players": {
+    "player1": "h",
+    "player2": "u",
+    "player3": "l",
+    "player4": "u"
+  },
+  "createdAt": {
+    "$date": "2025-03-27T18:46:32.905Z"
+  },
+  "sessionCount": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e59e4c8b75099645661460"
+  },
+  "seriesId": "9521650960",
+  "players": {
+    "player1": "u",
+    "player2": "j",
+    "player3": "b",
+    "player4": "l"
+  },
+  "createdAt": {
+    "$date": "2025-03-27T18:51:56.461Z"
+  },
+  "sessionCount": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e59f3ca6074e14b555aa4c"
+  },
+  "seriesId": "7209178330",
+  "players": {
+    "player1": "h",
+    "player2": "g",
+    "player3": "d",
+    "player4": "t"
+  },
+  "createdAt": {
+    "$date": "2025-03-27T18:55:56.413Z"
+  },
+  "sessionCount": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e5a157b089c3cc839e74f0"
+  },
+  "seriesId": "2465178562",
+  "players": {
+    "player1": "h",
+    "player2": "l",
+    "player3": "g",
+    "player4": "y"
+  },
+  "createdAt": {
+    "$date": "2025-03-27T19:04:55.668Z"
+  },
+  "sessionCount": 2,
+  "creatorId": "E32A692D-9234-4C2B-B45D-CF64B00B8CBD",
+  "viewerDevices": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e5a2ba75b1c14485e35608"
+  },
+  "seriesId": "4696193487",
+  "players": {
+    "player1": "hui",
+    "player2": "uyt",
+    "player3": "gtr",
+    "player4": "fds"
+  },
+  "createdAt": {
+    "$date": "2025-03-27T19:10:50.427Z"
+  },
+  "sessionCount": 1,
+  "creatorId": "E32A692D-9234-4C2B-B45D-CF64B00B8CBD",
+  "viewerDevices": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e5a558c948cf32f7b65e42"
+  },
+  "seriesId": "5539654402",
+  "players": {
+    "player1": "y",
+    "player2": "a",
+    "player3": "l",
+    "player4": "a"
+  },
+  "createdAt": {
+    "$date": "2025-03-27T19:22:00.746Z"
+  },
+  "sessionCount": 1,
+  "creatorId": "E32A692D-9234-4C2B-B45D-CF64B00B8CBD",
+  "viewerDevices": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e5a6f7b6da8cdab80ec6ae"
+  },
+  "seriesId": "7239553348",
+  "players": {
+    "player1": "t",
+    "player2": "u",
+    "player3": "o",
+    "player4": "p"
+  },
+  "createdAt": {
+    "$date": "2025-03-27T19:28:55.315Z"
+  },
+  "sessionCount": 2,
+  "creatorId": "E32A692D-9234-4C2B-B45D-CF64B00B8CBD",
+  "viewerDevices": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e5adea406655d69a8672a0"
+  },
+  "seriesId": "8371905335",
+  "players": {
+    "player1": "yt",
+    "player2": "pi",
+    "player3": "yg",
+    "player4": "ff"
+  },
+  "createdAt": {
+    "$date": "2025-03-27T19:58:34.066Z"
+  },
+  "sessionCount": 0,
+  "creatorId": "E32A692D-9234-4C2B-B45D-CF64B00B8CBD",
+  "viewerDevices": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e5b3ad1b05b296d042f88c"
+  },
+  "seriesId": "9223384406",
+  "password": "test1234",
+  "players": {
+    "player1": "Yh",
+    "player2": "Gv",
+    "player3": "Oo",
+    "player4": "Yt"
+  },
+  "createdAt": {
+    "$date": "2025-03-27T20:23:09.519Z"
+  },
+  "sessionCount": 1,
+  "creatorId": "714459C3-FE92-4324-8EB3-DD907E193330",
+  "viewerDevices": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e684d6161630475182bc15"
+  },
+  "seriesId": "4904972681",
+  "password": "test1234",
+  "players": {
+    "player1": "radu",
+    "player2": "alina",
+    "player3": "bogdan",
+    "player4": "ramona"
+  },
+  "createdAt": {
+    "$date": "2025-03-28T11:15:34.962Z"
+  },
+  "sessionCount": 2,
+  "creatorId": "E32A692D-9234-4C2B-B45D-CF64B00B8CBD",
+  "viewerDevices": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e686da161630475182bc6c"
+  },
+  "seriesId": "3874883582",
+  "password": "test1234",
+  "players": {
+    "player1": "udar",
+    "player2": "bob",
+    "player3": "ali",
+    "player4": "ram"
+  },
+  "createdAt": {
+    "$date": "2025-03-28T11:24:10.174Z"
+  },
+  "sessionCount": 1,
+  "creatorId": "E32A692D-9234-4C2B-B45D-CF64B00B8CBD",
+  "viewerDevices": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e68dcf161630475182bca6"
+  },
+  "seriesId": "8720504295",
+  "password": "test1234",
+  "players": {
+    "player1": "t",
+    "player2": "g",
+    "player3": "u",
+    "player4": "l"
+  },
+  "createdAt": {
+    "$date": "2025-03-28T11:53:51.236Z"
+  },
+  "sessionCount": 0,
+  "creatorId": "E32A692D-9234-4C2B-B45D-CF64B00B8CBD",
+  "viewerDevices": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e68dfd161630475182bcb2"
+  },
+  "seriesId": "3536839225",
+  "password": "test1234",
+  "players": {
+    "player1": "yu",
+    "player2": "qw",
+    "player3": "er",
+    "player4": "yr"
+  },
+  "createdAt": {
+    "$date": "2025-03-28T11:54:37.216Z"
+  },
+  "sessionCount": 0,
+  "creatorId": "E32A692D-9234-4C2B-B45D-CF64B00B8CBD",
+  "viewerDevices": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e68e46161630475182bcc4"
+  },
+  "seriesId": "9586481051",
+  "password": "test1234",
+  "players": {
+    "player1": "o",
+    "player2": "p",
+    "player3": "la",
+    "player4": "y"
+  },
+  "createdAt": {
+    "$date": "2025-03-28T11:55:50.054Z"
+  },
+  "sessionCount": 0,
+  "creatorId": "E32A692D-9234-4C2B-B45D-CF64B00B8CBD",
+  "viewerDevices": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e69184161630475182bce3"
+  },
+  "seriesId": "9664496733",
+  "password": "test1234",
+  "players": {
+    "player1": "b",
+    "player2": "u",
+    "player3": "i",
+    "player4": "c"
+  },
+  "createdAt": {
+    "$date": "2025-03-28T12:09:40.622Z"
+  },
+  "sessionCount": 0,
+  "creatorId": "E32A692D-9234-4C2B-B45D-CF64B00B8CBD",
+  "viewerDevices": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e6a124806e045ee4845999"
+  },
+  "seriesId": "8352113683",
+  "password": "test1234",
+  "players": {
+    "player1": "hu",
+    "player2": "lp",
+    "player3": "y",
+    "player4": "r"
+  },
+  "createdAt": {
+    "$date": "2025-03-28T13:16:20.740Z"
+  },
+  "sessionCount": 4,
+  "creatorId": "E32A692D-9234-4C2B-B45D-CF64B00B8CBD",
+  "viewerDevices": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e6cb0d806e045ee4845a10"
+  },
+  "seriesId": "4672458806",
+  "password": "test1234",
+  "players": {
+    "player1": "ty",
+    "player2": "re",
+    "player3": "we",
+    "player4": "lol"
+  },
+  "createdAt": {
+    "$date": "2025-03-28T16:15:09.841Z"
+  },
+  "sessionCount": 1,
+  "creatorId": "E32A692D-9234-4C2B-B45D-CF64B00B8CBD",
+  "viewerDevices": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e6cf220bb40814f704b622"
+  },
+  "seriesId": "8653121796",
+  "password": "test1234",
+  "players": {
+    "player1": "ty",
+    "player2": "re",
+    "player3": "bv",
+    "player4": "qw"
+  },
+  "createdAt": {
+    "$date": "2025-03-28T16:32:34.555Z"
+  },
+  "sessionCount": 1,
+  "creatorId": "38941219-5AE5-4C67-BF38-54B83CC08E6A",
+  "viewerDevices": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e6d39c0bb40814f704b654"
+  },
+  "seriesId": "7450863794",
+  "password": "test1234",
+  "players": {
+    "player1": "ty",
+    "player2": "po",
+    "player3": "uy",
+    "player4": "gf"
+  },
+  "createdAt": {
+    "$date": "2025-03-28T16:51:40.792Z"
+  },
+  "sessionCount": 1,
+  "creatorId": "80685558-F77B-40C1-9560-5D57B093EA7F",
+  "viewerDevices": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e6d62d0bb40814f704b68e"
+  },
+  "seriesId": "8670904136",
+  "password": "test1234",
+  "players": {
+    "player1": "tr",
+    "player2": "ds",
+    "player3": "as",
+    "player4": "po"
+  },
+  "createdAt": {
+    "$date": "2025-03-28T17:02:37.254Z"
+  },
+  "sessionCount": 6,
+  "creatorId": "1C93F4C3-6107-46A1-8C58-1BF2D1EF7648",
+  "viewerDevices": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e6f2400bb40814f704b80f"
+  },
+  "seriesId": "3786542138",
+  "password": "test1234",
+  "players": {
+    "player1": "Tuti",
+    "player2": "Tru",
+    "player3": "Poi",
+    "player4": "Lol"
+  },
+  "createdAt": {
+    "$date": "2025-03-28T19:02:24.627Z"
+  },
+  "sessionCount": 2,
+  "creatorId": "714459C3-FE92-4324-8EB3-DD907E193330",
+  "viewerDevices": [
+    "1C93F4C3-6107-46A1-8C58-1BF2D1EF7648"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e6f7abb29434c61c04972c"
+  },
+  "seriesId": "1542651823",
+  "password": "test1234",
+  "players": {
+    "player1": "Ty",
+    "player2": "Ui",
+    "player3": "Po",
+    "player4": "Oi"
+  },
+  "createdAt": {
+    "$date": "2025-03-28T19:25:31.762Z"
+  },
+  "sessionCount": 2,
+  "creatorId": "714459C3-FE92-4324-8EB3-DD907E193330",
+  "viewerDevices": [
+    "1C93F4C3-6107-46A1-8C58-1BF2D1EF7648"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e6fb18b29434c61c0497a0"
+  },
+  "seriesId": "6428619905",
+  "password": "test1234",
+  "players": {
+    "player1": "Tr",
+    "player2": "Tr",
+    "player3": "Re",
+    "player4": "Tr"
+  },
+  "createdAt": {
+    "$date": "2025-03-28T19:40:08.710Z"
+  },
+  "sessionCount": 4,
+  "creatorId": "714459C3-FE92-4324-8EB3-DD907E193330",
+  "viewerDevices": [
+    "1C93F4C3-6107-46A1-8C58-1BF2D1EF7648"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e7019ee3f8a89a6ac56049"
+  },
+  "seriesId": "6796579395",
+  "password": "test1234",
+  "players": {
+    "player1": "Tr",
+    "player2": "Hg",
+    "player3": "Iu",
+    "player4": "Pl"
+  },
+  "createdAt": {
+    "$date": "2025-03-28T20:07:58.768Z"
+  },
+  "sessionCount": 3,
+  "creatorId": "714459C3-FE92-4324-8EB3-DD907E193330",
+  "viewerDevices": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e70d64a7f07bd5669dd2bb"
+  },
+  "seriesId": "2235474804",
+  "password": "test1234",
+  "players": {
+    "player1": "Radu",
+    "player2": "Alina",
+    "player3": "Bogdan ",
+    "player4": "Ramona"
+  },
+  "createdAt": {
+    "$date": "2025-03-28T20:58:12.245Z"
+  },
+  "sessionCount": 5,
+  "creatorId": "714459C3-FE92-4324-8EB3-DD907E193330",
+  "viewerDevices": [
+    "1C93F4C3-6107-46A1-8C58-1BF2D1EF7648"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e73912f00daf3546fb4dee"
+  },
+  "seriesId": "1942267210",
+  "password": "test1234",
+  "players": {
+    "player1": "Rt",
+    "player2": "Uy",
+    "player3": "Fd",
+    "player4": "Po"
+  },
+  "createdAt": {
+    "$date": "2025-03-29T00:04:34.468Z"
+  },
+  "sessionCount": 24,
+  "creatorId": "714459C3-FE92-4324-8EB3-DD907E193330",
+  "viewerDevices": [
+    "1C93F4C3-6107-46A1-8C58-1BF2D1EF7648"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e7edca1f519f842efc4206"
+  },
+  "seriesId": "1394080580",
+  "password": "test1234",
+  "players": {
+    "player1": "Radu",
+    "player2": "Alina",
+    "player3": "Bogdan",
+    "player4": "Ramona"
+  },
+  "createdAt": {
+    "$date": "2025-03-29T12:55:38.091Z"
+  },
+  "sessionCount": 4,
+  "creatorId": "714459C3-FE92-4324-8EB3-DD907E193330",
+  "viewerDevices": [
+    "95AF6CF4-852F-46E7-BBDE-CFFB9A90E173",
+    "1C93F4C3-6107-46A1-8C58-1BF2D1EF7648"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67eee6e3128d54b35eba99dc"
+  },
+  "seriesId": "1448641737",
+  "password": "test1234",
+  "players": {
+    "player1": "Radu",
+    "player2": "Alina",
+    "player3": "Bogdan",
+    "player4": "Ramona"
+  },
+  "createdAt": {
+    "$date": "2025-04-03T19:52:03.687Z"
+  },
+  "sessionCount": 2,
+  "creatorId": "95AF6CF4-852F-46E7-BBDE-CFFB9A90E173",
+  "viewerDevices": [
+    "22F25CF5-14E4-4A19-B324-FA489B215B75",
+    "714459C3-FE92-4324-8EB3-DD907E193330",
+    "1C93F4C3-6107-46A1-8C58-1BF2D1EF7648"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67efba0d3eecc6cd6ddbc55e"
+  },
+  "seriesId": "2139124046",
+  "password": "test1234",
+  "players": {
+    "player1": "Tr",
+    "player2": "Iu",
+    "player3": "Op",
+    "player4": "Ef"
+  },
+  "createdAt": {
+    "$date": "2025-04-04T10:53:01.066Z"
+  },
+  "sessionCount": 8,
+  "creatorId": "714459C3-FE92-4324-8EB3-DD907E193330",
+  "viewerDevices": [
+    "1C93F4C3-6107-46A1-8C58-1BF2D1EF7648"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67efeb00b9227216619ea4be"
+  },
+  "seriesId": "4691953669",
+  "password": "test1234",
+  "players": {
+    "player1": "Radu",
+    "player2": "Alina",
+    "player3": "Bogdan",
+    "player4": "Ramona"
+  },
+  "createdAt": {
+    "$date": "2025-04-04T14:21:52.445Z"
+  },
+  "sessionCount": 6,
+  "creatorId": "714459C3-FE92-4324-8EB3-DD907E193330",
+  "viewerDevices": [
+    "95AF6CF4-852F-46E7-BBDE-CFFB9A90E173"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67effa72b9227216619eacdd"
+  },
+  "seriesId": "4781108645",
+  "password": "test1234",
+  "players": {
+    "player1": "Ty",
+    "player2": "Tr",
+    "player3": "Re",
+    "player4": "Es"
+  },
+  "createdAt": {
+    "$date": "2025-04-04T15:27:46.354Z"
+  },
+  "sessionCount": 1,
+  "creatorId": "95AF6CF4-852F-46E7-BBDE-CFFB9A90E173",
+  "viewerDevices": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67effab9b9227216619eacf6"
+  },
+  "seriesId": "2899201564",
+  "password": "test1234",
+  "players": {
+    "player1": "Test",
+    "player2": "Te",
+    "player3": "Rs",
+    "player4": "Kj"
+  },
+  "createdAt": {
+    "$date": "2025-04-04T15:28:57.271Z"
+  },
+  "sessionCount": 1,
+  "creatorId": "377CC8C6-4CC0-4B5B-A7BC-F75CBE8B6558",
+  "viewerDevices": [
+    "DA48A47C-A95E-4E12-903D-552F2850CAC1"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f00c57b9227216619ead5d"
+  },
+  "seriesId": "7495185772",
+  "password": "12345678",
+  "players": {
+    "player1": "Alina",
+    "player2": "Radu",
+    "player3": "Bogdan",
+    "player4": "Ramona"
+  },
+  "createdAt": {
+    "$date": "2025-04-04T16:44:07.137Z"
+  },
+  "sessionCount": 2,
+  "creatorId": "22F25CF5-14E4-4A19-B324-FA489B215B75",
+  "viewerDevices": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f2bcb2b9227216619eae6a"
+  },
+  "seriesId": "2247700268",
+  "password": "12345678",
+  "players": {
+    "player1": "A",
+    "player2": "B",
+    "player3": "C",
+    "player4": "D"
+  },
+  "createdAt": {
+    "$date": "2025-04-06T17:41:06.944Z"
+  },
+  "sessionCount": 2,
+  "creatorId": "A95F417B-517F-439C-AD67-9644AB8EA798",
+  "viewerDevices": [
+    "377CC8C6-4CC0-4B5B-A7BC-F75CBE8B6558",
+    "220A320D-1E43-43F0-9E31-2BDBC7973576"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f2c105b9227216619eaf8c"
+  },
+  "seriesId": "3664911501",
+  "password": "test1234",
+  "players": {
+    "player1": "Radu",
+    "player2": "Alina",
+    "player3": "Bogdan",
+    "player4": "Ramona"
+  },
+  "createdAt": {
+    "$date": "2025-04-06T17:59:33.561Z"
+  },
+  "sessionCount": 3,
+  "creatorId": "377CC8C6-4CC0-4B5B-A7BC-F75CBE8B6558",
+  "viewerDevices": [
+    "220A320D-1E43-43F0-9E31-2BDBC7973576",
+    "22F25CF5-14E4-4A19-B324-FA489B215B75",
+    "67531B04-2730-4350-AA2B-E08AB426E6F0",
+    "1D391BD1-A92D-4EAB-B2C3-9B344327ADD4"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f52562b9227216619eb584"
+  },
+  "seriesId": "6929576013",
+  "password": "a1234567",
+  "players": {
+    "player1": "A",
+    "player2": "B",
+    "player3": "C",
+    "player4": "D"
+  },
+  "createdAt": {
+    "$date": "2025-04-08T13:32:18.744Z"
+  },
+  "sessionCount": 1,
+  "creatorId": "F8605A7E-EECC-4625-BE0C-8C6C8AAF4109",
+  "viewerDevices": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67faa04fb9227216619eb669"
+  },
+  "seriesId": "9960460280",
+  "password": "12345678",
+  "players": {
+    "player1": "Raluca",
+    "player2": "Bogdan",
+    "player3": "Ramona",
+    "player4": "Florin"
+  },
+  "createdAt": {
+    "$date": "2025-04-12T17:18:07.357Z"
+  },
+  "sessionCount": 1,
+  "creatorId": "A95F417B-517F-439C-AD67-9644AB8EA798",
+  "viewerDevices": [
+    "377CC8C6-4CC0-4B5B-A7BC-F75CBE8B6558"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67fc03c3b9227216619ebd23"
+  },
+  "seriesId": "6684712082",
+  "password": "12345678",
+  "players": {
+    "player1": "Stefan",
+    "player2": "Bogdan",
+    "player3": "Raluca",
+    "player4": "Ramona"
+  },
+  "createdAt": {
+    "$date": "2025-04-13T18:34:43.122Z"
+  },
+  "sessionCount": 1,
+  "creatorId": "A95F417B-517F-439C-AD67-9644AB8EA798",
+  "viewerDevices": [
+    "377CC8C6-4CC0-4B5B-A7BC-F75CBE8B6558"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68028e85b9227216619ebfd9"
+  },
+  "seriesId": "7610647048",
+  "password": "12345678",
+  "players": {
+    "player1": "Laur",
+    "player2": "Ramona",
+    "player3": "Raluca",
+    "player4": "Florin"
+  },
+  "createdAt": {
+    "$date": "2025-04-18T17:40:21.512Z"
+  },
+  "sessionCount": 1,
+  "creatorId": "A95F417B-517F-439C-AD67-9644AB8EA798",
+  "viewerDevices": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68029556b9227216619ec051"
+  },
+  "seriesId": "6016561168",
+  "password": "12345678",
+  "players": {
+    "player1": "Petrisor",
+    "player2": "Laur",
+    "player3": "Ramo A",
+    "player4": "Bogdan"
+  },
+  "createdAt": {
+    "$date": "2025-04-18T18:09:26.698Z"
+  },
+  "sessionCount": 1,
+  "creatorId": "A95F417B-517F-439C-AD67-9644AB8EA798",
+  "viewerDevices": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6802a16bb9227216619ec0c9"
+  },
+  "seriesId": "3347804976",
+  "password": "12345678",
+  "players": {
+    "player1": "Raluca",
+    "player2": "Florin",
+    "player3": "Laur",
+    "player4": "Ramona"
+  },
+  "createdAt": {
+    "$date": "2025-04-18T19:00:59.951Z"
+  },
+  "sessionCount": 1,
+  "creatorId": "A95F417B-517F-439C-AD67-9644AB8EA798",
+  "viewerDevices": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6802a953b9227216619ec13d"
+  },
+  "seriesId": "3867471760",
+  "password": "12345678",
+  "players": {
+    "player1": "Ramon",
+    "player2": "Bogdan",
+    "player3": "Florin",
+    "player4": "Petrica"
+  },
+  "createdAt": {
+    "$date": "2025-04-18T19:34:43.905Z"
+  },
+  "sessionCount": 1,
+  "creatorId": "A95F417B-517F-439C-AD67-9644AB8EA798",
+  "viewerDevices": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6802af90b9227216619ec203"
+  },
+  "seriesId": "8590966324",
+  "password": "12345678",
+  "players": {
+    "player1": "Petrica",
+    "player2": "Laur",
+    "player3": "Raluca",
+    "player4": "Florin"
+  },
+  "createdAt": {
+    "$date": "2025-04-18T20:01:20.404Z"
+  },
+  "sessionCount": 2,
+  "creatorId": "A95F417B-517F-439C-AD67-9644AB8EA798",
+  "viewerDevices": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6803e9b7b9227216619ec38c"
+  },
+  "seriesId": "9948144792",
+  "password": "12345678",
+  "players": {
+    "player1": "Laur",
+    "player2": "Ramona",
+    "player3": "Petrica",
+    "player4": "Florin"
+  },
+  "createdAt": {
+    "$date": "2025-04-19T18:21:43.629Z"
+  },
+  "sessionCount": 1,
+  "creatorId": "A95F417B-517F-439C-AD67-9644AB8EA798",
+  "viewerDevices": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68053afbb9227216619ec593"
+  },
+  "seriesId": "7429352684",
+  "password": "12345678",
+  "players": {
+    "player1": "Laur",
+    "player2": "Ramona",
+    "player3": "Raluca",
+    "player4": "Florin"
+  },
+  "createdAt": {
+    "$date": "2025-04-20T18:20:43.572Z"
+  },
+  "sessionCount": 1,
+  "creatorId": "A95F417B-517F-439C-AD67-9644AB8EA798",
+  "viewerDevices": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68055345b9227216619ec6a3"
+  },
+  "seriesId": "9045286715",
+  "password": "12345678",
+  "players": {
+    "player1": "Raluca",
+    "player2": "Ramona",
+    "player3": "Florin",
+    "player4": "Laur"
+  },
+  "createdAt": {
+    "$date": "2025-04-20T20:04:21.977Z"
+  },
+  "sessionCount": 1,
+  "creatorId": "A95F417B-517F-439C-AD67-9644AB8EA798",
+  "viewerDevices": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68165b47b9227216619ed3f7"
+  },
+  "seriesId": "2073444952",
+  "password": "12345678",
+  "players": {
+    "player1": "Florin",
+    "player2": "Ramona",
+    "player3": "Raluca",
+    "player4": "Bogdam"
+  },
+  "createdAt": {
+    "$date": "2025-05-03T18:07:03.347Z"
+  },
+  "sessionCount": 1,
+  "creatorId": "A95F417B-517F-439C-AD67-9644AB8EA798",
+  "viewerDevices": [],
+  "__v": 0
+}]

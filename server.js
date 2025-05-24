@@ -7,94 +7,208 @@ const bodyParser = require('body-parser');
 const morgan = require('morgan');
 require('dotenv').config();
 
-// Inițializarea aplicației Express
+// DEBUG pentru Render
+console.log('=== RENDER DEPLOYMENT INFO ===');
+console.log('NODE_ENV:', process.env.NODE_ENV);
+console.log('PORT:', process.env.PORT);
+console.log('MONGODB_URI exists:', !!process.env.MONGODB_URI);
+console.log('================================');
+
 const app = express();
 const server = http.createServer(app);
+
+// CORS configuration pentru producție
+const corsOptions = {
+  origin: process.env.NODE_ENV === 'production' 
+    ? [
+        'https://your-frontend-domain.com', // Înlocuiește cu domeniul aplicației iOS
+        'http://localhost:3000', // Pentru teste locale
+        /https:\/\/.*\.render\.com$/ // Pentru subdomenii Render
+      ] 
+    : "*",
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true,
+  optionsSuccessStatus: 200
+};
+
 const io = socketIo(server, {
-  cors: {
-    origin: "*",  // În producție, specifică domeniile permise
-    methods: ["GET", "POST"]
-  }
+  cors: corsOptions,
+  transports: ['websocket', 'polling']
 });
 
-// Configurare Socket.IO
+// Socket.IO configuration
 io.on('connection', (socket) => {
-  console.log('Un client s-a conectat:', socket.id);
+  console.log('Client conectat:', socket.id);
   
-  // Alătură-te unei camere (serie)
   socket.on('join-series', (seriesId) => {
     socket.join(`series:${seriesId}`);
-    console.log(`Clientul ${socket.id} s-a alăturat camerei series:${seriesId}`);
+    console.log(`Client ${socket.id} alăturat camerei series:${seriesId}`);
   });
   
-  // Părăsește o cameră
   socket.on('leave-series', (seriesId) => {
     socket.leave(`series:${seriesId}`);
-    console.log(`Clientul ${socket.id} a părăsit camera series:${seriesId}`);
+    console.log(`Client ${socket.id} părăsit camera series:${seriesId}`);
   });
   
   socket.on('disconnect', () => {
-    console.log('Un client s-a deconectat:', socket.id);
+    console.log('Client deconectat:', socket.id);
   });
 });
 
-// Exportă io pentru a-l putea folosi în route-uri
 app.set('io', io);
 
-// Middleware pentru logging
-app.use(morgan('dev')); // Adaugă morgan pentru a loga cererile HTTP
+// Middleware
+app.use(morgan(process.env.NODE_ENV === 'production' ? 'combined' : 'dev'));
+app.use(cors(corsOptions));
+app.use(bodyParser.json({ limit: '10mb' }));
+app.use(bodyParser.urlencoded({ extended: true, limit: '10mb' }));
 
-// Middleware pentru CORS și procesarea body-ului
-app.use(cors());
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
+// Request logging doar în development
+if (process.env.NODE_ENV !== 'production') {
+  app.use((req, res, next) => {
+    console.log(`${new Date().toISOString()} - ${req.method} ${req.url}`);
+    next();
+  });
+}
 
-// Middleware pentru a loga toate cererile
-app.use((req, res, next) => {
-  console.log(`${new Date().toISOString()} - ${req.method} ${req.url}`);
-  if (req.method === 'POST' || req.method === 'PUT') {
-    console.log('Conținut cerere:', JSON.stringify(req.body, null, 2));
+// MongoDB connection optimized for Atlas
+const mongooseOptions = {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+  serverSelectionTimeoutMS: 30000,
+  socketTimeoutMS: 75000,
+  retryWrites: true,
+  maxPoolSize: 10,
+};
+
+console.log('🔌 Conectare la MongoDB Atlas...');
+mongoose.connect(process.env.MONGODB_URI, mongooseOptions)
+  .then(() => {
+    console.log('✅ Conectat la MongoDB Atlas');
+    console.log('📊 Database:', mongoose.connection.name);
+    console.log('📊 Host:', mongoose.connection.host);
+  })
+  .catch(err => {
+    console.error('❌ Eroare conectare MongoDB:', err.message);
+    process.exit(1);
+  });
+
+// MongoDB event handlers
+mongoose.connection.on('connected', () => {
+  console.log('🔗 Mongoose conectat');
+});
+
+mongoose.connection.on('error', (err) => {
+  console.error('❌ Eroare MongoDB:', err);
+});
+
+mongoose.connection.on('disconnected', () => {
+  console.log('🔌 Mongoose deconectat');
+});
+
+// Health check endpoint
+app.get('/health', async (req, res) => {
+  try {
+    const dbState = mongoose.connection.readyState;
+    const states = ['disconnected', 'connected', 'connecting', 'disconnecting'];
+    
+    res.status(200).json({ 
+      status: 'OK', 
+      timestamp: new Date().toISOString(),
+      database: states[dbState],
+      host: mongoose.connection.host,
+      dbName: mongoose.connection.name,
+      environment: process.env.NODE_ENV,
+      port: process.env.PORT
+    });
+  } catch (error) {
+    res.status(500).json({
+      status: 'ERROR',
+      message: error.message
+    });
   }
-  next();
 });
 
-// Conectare la MongoDB
-mongoose.connect(process.env.MONGODB_URI)
-  .then(() => console.log('Conectat la MongoDB'))
-  .catch(err => console.error('Eroare la conectarea la MongoDB:', err));
-
-// Rută de test
-app.get('/', (req, res) => {
-  res.json({ message: 'API Remi funcționează!' });
+// Root endpoint
+app.get('/', async (req, res) => {
+  try {
+    res.json({ 
+      message: 'Remi Scorer API - LIVE on Render!',
+      database: mongoose.connection.name,
+      environment: process.env.NODE_ENV || 'development',
+      timestamp: new Date().toISOString()
+    });
+  } catch (error) {
+    res.json({ 
+      message: 'Remi Scorer API - LIVE on Render!',
+      environment: process.env.NODE_ENV || 'development'
+    });
+  }
 });
 
-// Importare și utilizare rute
+// API Routes
 const sessionRoutes = require('./routes/sessions');
 const seriesRoutes = require('./routes/series');
 app.use('/api/sessions', sessionRoutes);
 app.use('/api/series', seriesRoutes);
 
-// Middleware pentru tratarea erorilor
+// Error handling middleware
 app.use((err, req, res, next) => {
-  console.error('Eroare server:', err);
+  console.error('Server error:', err);
   res.status(500).json({
     success: false,
-    message: 'Eroare internă de server',
-    error: err.message
+    message: 'Eroare internă server',
+    error: process.env.NODE_ENV === 'production' ? 'Internal Server Error' : err.message
   });
 });
 
-// Pornire server
-const PORT = process.env.PORT || 3000;
-server.listen(PORT, () => {
-  console.log(`Serverul rulează pe portul ${PORT}`);
-  console.log(`Accesează API-ul la http://localhost:${PORT}`);
+// 404 handler
+app.use('*', (req, res) => {
+  res.status(404).json({
+    success: false,
+    message: 'Endpoint negăsit'
+  });
 });
 
-// Adaugă handler pentru închidere grațioasă
-process.on('SIGINT', async () => {
-  console.log('Închidere server...');
-  await mongoose.connection.close();
-  console.log('Conexiune MongoDB închisă.');
+// Start server
+const PORT = process.env.PORT || 3000;
+server.listen(PORT, '0.0.0.0', () => {
+  console.log(`🚀 Server pornit pe portul ${PORT}`);
+  console.log(`🌐 Environment: ${process.env.NODE_ENV || 'development'}`);
+  
+  if (process.env.NODE_ENV === 'production') {
+    console.log('📡 API disponibil la: https://your-app-name.onrender.com');
+  } else {
+    console.log(`📡 API local: http://localhost:${PORT}`);
+  }
+});
+
+// Graceful shutdown
+const gracefulShutdown = async (signal) => {
+  console.log(`\n${signal} primit. Închidere grațioasă...`);
+  
+  server.close(() => {
+    console.log('🔌 Server HTTP închis');
+  });
+  
+  try {
+    await mongoose.connection.close();
+    console.log('🔌 Conexiune MongoDB închisă');
+  } catch (err) {
+    console.error('Eroare închidere MongoDB:', err);
+  }
+  
   process.exit(0);
+};
+
+process.on('SIGINT', () => gracefulShutdown('SIGINT'));
+process.on('SIGTERM', () => gracefulShutdown('SIGTERM'));
+
+// Handle unhandled promise rejections
+process.on('unhandledRejection', (err, promise) => {
+  console.error('Unhandled Promise Rejection:', err.message);
+  // Close server & exit process
+  server.close(() => {
+    process.exit(1);
+  });
 });
