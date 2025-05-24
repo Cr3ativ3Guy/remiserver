@@ -7,6 +7,9 @@ const bodyParser = require('body-parser');
 const morgan = require('morgan');
 require('dotenv').config();
 
+// Importă fetch pentru Node.js (pentru keep-alive)
+const fetch = require('node-fetch');
+
 // DEBUG pentru Render
 console.log('=== RENDER DEPLOYMENT INFO ===');
 console.log('NODE_ENV:', process.env.NODE_ENV);
@@ -73,8 +76,6 @@ if (process.env.NODE_ENV !== 'production') {
 
 // MongoDB connection optimized for Atlas
 const mongooseOptions = {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
   serverSelectionTimeoutMS: 30000,
   socketTimeoutMS: 75000,
   retryWrites: true,
@@ -178,6 +179,22 @@ server.listen(PORT, '0.0.0.0', () => {
   
   if (process.env.NODE_ENV === 'production') {
     console.log('📡 API disponibil la: https://your-app-name.onrender.com');
+    
+    // Keep-alive pentru free tier Render
+    const RENDER_URL = process.env.RENDER_EXTERNAL_URL || `https://${process.env.RENDER_SERVICE_NAME}.onrender.com`;
+    
+    if (RENDER_URL) {
+      setInterval(async () => {
+        try {
+          const response = await fetch(`${RENDER_URL}/health`);
+          console.log(`🏓 Keep-alive ping: ${response.status} - ${new Date().toISOString()}`);
+        } catch (error) {
+          console.log(`🏓 Keep-alive ping failed: ${error.message}`);
+        }
+      }, 14 * 60 * 1000); // 14 minute - evită sleep-ul la 15 minute
+      
+      console.log('🏓 Auto keep-alive activat pentru free tier');
+    }
   } else {
     console.log(`📡 API local: http://localhost:${PORT}`);
   }
